@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>aspnet-LearningHub-b75a3d12-da79-4e29-9958-465d1f49f222</UserSecretsId>
+    <UserSecretsId>aspnet-ShareHub-618f98da-ca83-4a99-842a-1a0cbf8fe601</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

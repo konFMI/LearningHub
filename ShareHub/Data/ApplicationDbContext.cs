@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace LearningHub.Data
+namespace ShareHub.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
