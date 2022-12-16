@@ -14,7 +14,7 @@ namespace ShareHub.Controllers
         }
 
         public IActionResult Index()
-            => View();
+            => View(new IndexViewModel());
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
