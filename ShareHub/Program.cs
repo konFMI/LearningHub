@@ -19,7 +19,12 @@ namespace ShareHub
 
             builder.Services.AddDefaultIdentity<IdentityUser>(options =>
             {
-                options.SignIn.RequireConfirmedAccount = false;
+                // TODO: Update restrictions when in release state.
+                options.SignIn.RequireConfirmedAccount  = false;
+                options.Password.RequireDigit           = false;
+                options.Password.RequireLowercase       = false;
+                options.Password.RequireNonAlphanumeric = false;
+                options.Password.RequireUppercase       = false;
             })
                 .AddEntityFrameworkStores<ShareHubDbContext>();
 
